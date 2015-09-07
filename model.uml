@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_G2ntQFAvEeW7uOcOjEkKoQ" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mainAFAvEeW7uOcOjEkKoQ" name="Cruise control interface"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_tvQKwFAvEeW7uOcOjEkKoQ" name="user"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_yUf3kFAvEeW7uOcOjEkKoQ" name="sensor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_0DOqQFAvEeW7uOcOjEkKoQ" name="brake"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_AbAfQFAwEeW7uOcOjEkKoQ" name="Manaage Platoons"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_DlZXoFAwEeW7uOcOjEkKoQ" name="Engage/Disengage"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_HLgisFAwEeW7uOcOjEkKoQ" name="Determinig Distance"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_JYdicFAwEeW7uOcOjEkKoQ" name="Adjust speed"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LKqf4FAwEeW7uOcOjEkKoQ" name="Other cars"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GhV5cFAyEeW7uOcOjEkKoQ" memberEnd="_GhWgglAyEeW7uOcOjEkKoQ _GhWgg1AyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GhWggFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GhWggVAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GhWgglAyEeW7uOcOjEkKoQ" name="manaage platoons" type="_AbAfQFAwEeW7uOcOjEkKoQ" association="_GhV5cFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GhWgg1AyEeW7uOcOjEkKoQ" name="cruise control interface" type="_mainAFAvEeW7uOcOjEkKoQ" association="_GhV5cFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_KnvHEFAyEeW7uOcOjEkKoQ" memberEnd="_KnwVMVAyEeW7uOcOjEkKoQ _KnwVMlAyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KnvuIFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KnwVMFAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KnwVMVAyEeW7uOcOjEkKoQ" name="engage/disengage" type="_DlZXoFAwEeW7uOcOjEkKoQ" association="_KnvHEFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_KnwVMlAyEeW7uOcOjEkKoQ" name="cruise control interface" type="_mainAFAvEeW7uOcOjEkKoQ" association="_KnvHEFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ncg70FAyEeW7uOcOjEkKoQ" memberEnd="_Nchi4lAyEeW7uOcOjEkKoQ _NciJ8FAyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nchi4FAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nchi4VAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Nchi4lAyEeW7uOcOjEkKoQ" name="engage/disengage" type="_DlZXoFAwEeW7uOcOjEkKoQ" association="_Ncg70FAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_NciJ8FAyEeW7uOcOjEkKoQ" name="user" type="_tvQKwFAvEeW7uOcOjEkKoQ" association="_Ncg70FAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QiU2MFAyEeW7uOcOjEkKoQ" memberEnd="_QiVdQlAyEeW7uOcOjEkKoQ _QiVdQ1AyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QiVdQFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QiVdQVAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QiVdQlAyEeW7uOcOjEkKoQ" name="determinig distance" type="_HLgisFAwEeW7uOcOjEkKoQ" association="_QiU2MFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QiVdQ1AyEeW7uOcOjEkKoQ" name="sensor" type="_yUf3kFAvEeW7uOcOjEkKoQ" association="_QiU2MFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RspUQFAyEeW7uOcOjEkKoQ" memberEnd="_Rsp7UVAyEeW7uOcOjEkKoQ _Rsp7UlAyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RspUQVAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rsp7UFAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Rsp7UVAyEeW7uOcOjEkKoQ" name="adjust speed" type="_JYdicFAwEeW7uOcOjEkKoQ" association="_RspUQFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Rsp7UlAyEeW7uOcOjEkKoQ" name="brake" type="_0DOqQFAvEeW7uOcOjEkKoQ" association="_RspUQFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SgiPUFAyEeW7uOcOjEkKoQ" memberEnd="_Sgi2YlAyEeW7uOcOjEkKoQ _SgjdcFAyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sgi2YFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Sgi2YVAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Sgi2YlAyEeW7uOcOjEkKoQ" name="determinig distance" type="_HLgisFAwEeW7uOcOjEkKoQ" association="_SgiPUFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SgjdcFAyEeW7uOcOjEkKoQ" name="adjust speed" type="_JYdicFAwEeW7uOcOjEkKoQ" association="_SgiPUFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TlmZ8FAyEeW7uOcOjEkKoQ" memberEnd="_TlnBAlAyEeW7uOcOjEkKoQ _TlnBA1AyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TlnBAFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TlnBAVAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TlnBAlAyEeW7uOcOjEkKoQ" name="manaage platoons" type="_AbAfQFAwEeW7uOcOjEkKoQ" association="_TlmZ8FAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TlnBA1AyEeW7uOcOjEkKoQ" name="other cars" type="_LKqf4FAwEeW7uOcOjEkKoQ" association="_TlmZ8FAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ud0bYFAyEeW7uOcOjEkKoQ" memberEnd="_Ud1CclAyEeW7uOcOjEkKoQ _Ud1Cc1AyEeW7uOcOjEkKoQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ud1CcFAyEeW7uOcOjEkKoQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ud1CcVAyEeW7uOcOjEkKoQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ud1CclAyEeW7uOcOjEkKoQ" name="determinig distance" type="_HLgisFAwEeW7uOcOjEkKoQ" association="_Ud0bYFAyEeW7uOcOjEkKoQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ud1Cc1AyEeW7uOcOjEkKoQ" name="other cars" type="_LKqf4FAwEeW7uOcOjEkKoQ" association="_Ud0bYFAyEeW7uOcOjEkKoQ"/>
+  </packagedElement>
+</uml:Model>
